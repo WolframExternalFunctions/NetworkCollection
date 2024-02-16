@@ -1,0 +1,134 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Wolfram 14.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       154,          7]
+NotebookDataLength[      4472,        126]
+NotebookOptionsPosition[      3238,         96]
+NotebookOutlinePosition[      3634,        112]
+CellTagsIndexPosition[      3591,        109]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["IPAddress", "Subsubsection",
+ CellChangeTimes->{
+  3.9171011154289627`*^9, {3.917101436603693*^9, 
+   3.917101438658618*^9}},ExpressionUUID->"ca9930c7-3238-408c-817b-\
+150e3b8eaf75"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"PacletDirectoryLoad", "[", 
+  "\"\</Users/arnoudb/NetworkCollection\>\"", "]"}]], "Input",
+ CellChangeTimes->{{3.917101280127523*^9, 3.917101280560006*^9}, {
+  3.917102444530189*^9, 3.9171024610837173`*^9}},
+ CellLabel->"In[9]:=",ExpressionUUID->"313feab3-c864-4e4a-b1a1-46a0eac95898"],
+
+Cell[BoxData[
+ RowBox[{"{", "\<\"/Users/arnoudb/NetworkCollection\"\>", "}"}]], "Output",
+ CellChangeTimes->{{3.9171024628329563`*^9, 3.917102483293236*^9}, 
+   3.917102522459193*^9},
+ CellLabel->"Out[9]=",ExpressionUUID->"3d3d17fe-cf01-4f2a-8993-3d057f2f25ad"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Get", "[", "\"\<WolframExternalFunctions`NetworkCollection`\>\"", 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.9171011183557262`*^9, 3.91710112749041*^9}, {
+  3.917102487696939*^9, 3.9171024992622843`*^9}},
+ CellLabel->"In[10]:=",ExpressionUUID->"c2a42876-c71d-4641-8dd3-0dca43f6fa0b"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Get", "noopen", 
+   "\"Cannot open \
+\\!\\(\\*RowBox[{\\\"\\\\\\\"WolframExternalFunctions`NetworkCollection`\\\\\\\
+\"\\\"}]\\).\"", 2, 10, 5, 34618401895504438060, "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{{3.917102499619213*^9, 3.917102523477652*^9}},
+ CellLabel->
+  "During evaluation of \
+In[10]:=",ExpressionUUID->"8aab23cd-29e9-4acd-b116-8173b584bc79"],
+
+Cell[BoxData["$Failed"], "Output",
+ CellChangeTimes->{{3.91710249962574*^9, 3.917102523484857*^9}},
+ CellLabel->"Out[10]=",ExpressionUUID->"3be4ba45-d75c-4f3c-9452-6eee941586da"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"IPAddressGlobalQ", "[", "\"\<140.177.0.1\>\"", "]"}]], "Input",
+ CellChangeTimes->{{3.9171011761294622`*^9, 3.917101191017433*^9}, 
+   3.917101291257612*^9},
+ CellLabel->"In[4]:=",ExpressionUUID->"fdba67af-ed61-4252-a1c3-b8ffaa0c000b"],
+
+Cell[BoxData["True"], "Output",
+ CellChangeTimes->{{3.917101272997368*^9, 3.9171013138372793`*^9}},
+ CellLabel->"Out[4]=",ExpressionUUID->"b91e1750-ce17-4185-8e30-d75191f14ab5"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "CloudConnect", "clver", 
+   "\"Connecting to a cloud running an earlier version of the Wolfram Engine: \
+\\!\\(\\*RowBox[{\\\"\\\\\\\"14.0\\\\\\\"\\\"}]\\)\"", 2, 5, 1, 
+   34618401895504438060, "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.917101685785123*^9},
+ CellLabel->
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"c5353d27-2778-45c8-bac7-d7c302ea311c"]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{1440, 847},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+FrontEndVersion->"14.1 for Mac OS X ARM (64-bit) (February 15, 2024)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"2a18176b-559f-4315-92b6-3b15f4edd06c"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[576, 22, 188, 4, 43, "Subsubsection",ExpressionUUID->"ca9930c7-3238-408c-817b-150e3b8eaf75"],
+Cell[CellGroupData[{
+Cell[789, 30, 309, 5, 29, "Input",ExpressionUUID->"313feab3-c864-4e4a-b1a1-46a0eac95898"],
+Cell[1101, 37, 261, 4, 33, "Output",ExpressionUUID->"3d3d17fe-cf01-4f2a-8993-3d057f2f25ad"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1399, 46, 306, 5, 29, "Input",ExpressionUUID->"c2a42876-c71d-4641-8dd3-0dca43f6fa0b"],
+Cell[1708, 53, 419, 10, 28, "Message",ExpressionUUID->"8aab23cd-29e9-4acd-b116-8173b584bc79"],
+Cell[2130, 65, 178, 2, 33, "Output",ExpressionUUID->"3be4ba45-d75c-4f3c-9452-6eee941586da"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2345, 72, 259, 4, 29, "Input",ExpressionUUID->"fdba67af-ed61-4252-a1c3-b8ffaa0c000b"],
+Cell[2607, 78, 177, 2, 33, "Output",ExpressionUUID->"b91e1750-ce17-4185-8e30-d75191f14ab5"],
+Cell[2787, 82, 423, 10, 28, "Message",ExpressionUUID->"c5353d27-2778-45c8-bac7-d7c302ea311c"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
