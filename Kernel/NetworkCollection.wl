@@ -24,11 +24,11 @@ ExternalEvaluate[session, "import ipaddress"];
 IPAddressVersion[address_String] := ExternalFunction[session, "lambda address: ipaddress.ip_address(address).version"][address];
 IPAddressVersion[address_IPAddress] := ExternalFunction[session, "lambda address: ipaddress.ip_address(address).version"][First@address];
 
-CompressIPAddress[address_String] := ExternalFunction[session, "lambda address: ipaddress.ip_address(address).compressed"][address];
-CompressIPAddress[address_IPAddress] := ExternalFunction[session, "lambda address: ipaddress.ip_address(address).compressed"][First@address];
+CompressIPAddress[address_String] := IPAddress @ ExternalFunction[session, "lambda address: ipaddress.ip_address(address).compressed"][address];
+CompressIPAddress[address_IPAddress] := IPAddress @ ExternalFunction[session, "lambda address: ipaddress.ip_address(address).compressed"][First@address];
 
-UncompressIPAddress[address_String] := ExternalFunction[session, "lambda address: ipaddress.ip_address(address).exploded"][address];
-UncompressIPAddress[address_IPAddress] := ExternalFunction[session, "lambda address: ipaddress.ip_address(address).exploded"][First@address];
+UncompressIPAddress[address_String] := IPAddress @ ExternalFunction[session, "lambda address: ipaddress.ip_address(address).exploded"][address];
+UncompressIPAddress[address_IPAddress] := IPAddress @ ExternalFunction[session, "lambda address: ipaddress.ip_address(address).exploded"][First@address];
 
 IPAddressToByteArray[address_String] := ExternalFunction[session, "lambda address: ipaddress.ip_address(address).packed"][address];
 IPAddressToByteArray[address_IPAddress] := ExternalFunction[session, "lambda address: ipaddress.ip_address(address).packed"][First@address];
