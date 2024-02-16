@@ -4,9 +4,6 @@ IPAddressVersion::usage = "IPAddressVersion[address] returns the IP version of t
 CompressIPAddress::usage = "CompressIPAddress[address] returns the compressed form of the given address.";
 UncompressIPAddress::usage = "UncompressIPAddress[address] returns the uncompressed form of the given address.";
 IPAddressToByteArray::usage = "IPAddressToByteArray[address] returns the byte array of the given address.";
-(*
-ByteArrayToIPAddress::usage = "ByteArrayToIPAddress[address] returns the IP address of the given byte array.";
-*)
 ReverseIPAddress::usage = "ReverseIPAddress[address] returns the reverse pointer of the given address.";
 IPAddressMulticastQ::usage = "IPAddressMulticastQ[address] returns True if the given address is a multicast address.";
 IPAddressPrivateQ::usage = "IPAddressPrivateQ[address] returns True if the given address is a private address.";
@@ -21,7 +18,7 @@ getSession[id_String, dependencies_List] := Module[{env},
   SelectFirst[ExternalSessions[], #["ID"] == id &, StartExternalSession[env]]
   ]
 
-session = getSession["ipaddress", {}];
+session = getSession["NetworkCollection", {}];
 ExternalEvaluate[session, "import ipaddress"];
 
 IPAddressVersion[address_String] := ExternalFunction[session, "lambda address: ipaddress.ip_address(address).version"][address];
