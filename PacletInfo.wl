@@ -24,7 +24,7 @@ PacletObject[
           "WolframExternalFunctions`NetworkCollection`ReverseIPAddress",
           "WolframExternalFunctions`NetworkCollection`IPAddressMulticastQ",
           "WolframExternalFunctions`NetworkCollection`IPAddressPrivateQ",
-          "WolframExternalFunctions`NetworkCollection`IPAddressGlopbalQ",
+          "WolframExternalFunctions`NetworkCollection`IPAddressGlobalQ",
           "WolframExternalFunctions`NetworkCollection`IPAddressLoopbackQ",
           "WolframExternalFunctions`NetworkCollection`ConvertToIPV4Address"
         }
