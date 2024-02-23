@@ -1,0 +1,14 @@
+{
+  "functionName": "ReverseIPAddress",
+  "usage": "ReverseIPAddress[ipAddress] <usage description>",
+  "keywords": ["networking", "IP address", "reverse"],
+  "notes": "This function takes an IP address as input and returns the reverse DNS lookup for that IP address.",
+  "relatedFunctions": ["GetIPAddress", "ValidateIPAddress"],
+  "examples": [
+    {
+      "caption": "<explanation of the example>",
+      "input": "ReverseIPAddress[\"192.168.0.1\"]",
+      "output": "<wolfram language output>"
+    }
+  ]
+}

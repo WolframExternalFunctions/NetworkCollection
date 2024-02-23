@@ -3,7 +3,7 @@ PacletObject[
     "Name" -> "WolframExternalFunctions/NetworkCollection",
     "Description" -> "Collection of network related functions for the Wolfram Language",
     "Creator" -> "Arnoud Buzing",
-    "Version" -> "1.0.0",
+    "Version" -> "1.0.1",
     "WolframVersion" -> "14.0+",
     "PublisherID" -> "WolframExternalFunctions",
     "License" -> "MIT",
@@ -26,7 +26,10 @@ PacletObject[
           "WolframExternalFunctions`NetworkCollection`IPAddressPrivateQ",
           "WolframExternalFunctions`NetworkCollection`IPAddressGlobalQ",
           "WolframExternalFunctions`NetworkCollection`IPAddressLoopbackQ",
-          "WolframExternalFunctions`NetworkCollection`ConvertToIPV4Address"
+          "WolframExternalFunctions`NetworkCollection`ConvertToIPV4Address",
+          "WolframExternalFunctions`NetworkCollection`IPNetwork",
+          "WolframExternalFunctions`NetworkCollection`IPNetworkVersion",
+          "WolframExternalFunctions`NetworkCollection`IPNetworkCompressed"
         }
       },
       {
